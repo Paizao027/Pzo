@@ -5,7 +5,7 @@ const help = (prefix) => {
  <══════════════════════>
 
 __█████████  ● ᏴϴͲ●ᎷᎬΝႮ●         
-__█▄█████▄█   *DONO*    : ᴘᴀɪᴢᴀ̃ᴏ⁰²⁷
+__█▄█████▄█   *DONO*   : ᴘᴀɪᴢᴀ̃ᴏ⁰²⁷
 __█▼▼▼▼▼█ 
 _██ᏴϴͲ Ꮩ4.0██▌ 
 __█▲▲▲▲▲█ 
@@ -23,12 +23,12 @@ ____██_____██
 ║
 ╠══🤖〘 MENU 〙🤖══
 ║
-║🐊 *${prefix}figu*
+║🐊 *${prefix}figu* 
 ║🐊 *${prefix}toimg*
 ║🐊 *${prefix}memea (memes aleatórios)*
 ║🐊 *${prefix}txtfig*
 ║
-╠══🤖〘 OUTROS 〙🤖══
+╠══🔥〘 OUTROS 〙🔥══
 ║
 ║🐊 *${prefix}linkgp*
 ║🐊 *${prefix}marcar*
@@ -50,12 +50,12 @@ ____██_____██
 ║🐊 *${prefix}ytmp4*
 ║🐊 *${prefix}bomdia*
 ║
-╠══🤖〘 IMAGENS 〙🤖══
+╠══🔥〘 IMAGENS 〙🔥══
 ║🐊 *${prefix}dono*
 ║🐊 *${prefix}lofi*
 ║🐊 *${prefix}canal*
 ║
-╠══🤖〘 EM PRODUÇÃO 〙🤖══
+╠══🛠〘 EM PRODUÇÃO 〙🛠══
 ║
 ║🐊 *${prefix}gado*
 ║🐊 *${prefix}dbz*
@@ -65,7 +65,7 @@ ____██_____██
 ║🐊 *${prefix}antinazismo
 ║🐊 *${prefix}it 1/0
 ║
-╠══🤖〘 SÓ PREMIUM 〙🤖══
+╠══💰〘 SÓ PREMIUM 〙💰══
 ║
 ║🐊 *${prefix}dado*
 ║🐊 *${prefix}cekvip*
@@ -82,7 +82,7 @@ ____██_____██
 ║🐊 *${prefix}destrava*
 ║🐊 *${prefix}gpessoa*
 ║
-╠══🤖〘 GRUPO 〙🤖══
+╠══🔥〘 GRUPO 〙🔥══
 ║
 ║🐊 *${prefix}banir*
 ║🐊 *${prefix}promover*
@@ -97,7 +97,7 @@ ____██_____██
 ║🐊 *${prefix}grupoinfo*
 ║🐊 *${prefix}bomdia*
 ║
-╠══🤖〘 ESPECIFICO DO BOT 〙🤖══
+╠══🔥〘 ESPECIFICO DO BOT 〙🔥══
 ║
 ║🐊 *${prefix}dono*
 ║🐊 *${prefix}ping [ver velocidade do bot]*
@@ -107,14 +107,14 @@ ____██_____██
 ║🐊 *${prefix}map (nome)*
 ║🐊 *${prefix}desligar (so para o dono)*
 ║
-╠══🤖〘 MAIS ALGUNS 〙🤖══
+╠══🔥〘 MAIS ALGUNS 〙🔥══
 ║
 ║🐊 *${prefix}testime*
 ║🐊 *${prefix}rize*
 ║🐊 *${prefix}gay1*
 ║🐊 *${prefix}alerta*
 ║
-╠══🐰〘 COMANDOS DE VOZ 〙🐰══
+╠══🔥〘 COMANDOS DE VOZ 〙🔥══
 ║
 ║🐊 *${prefix}ola*
 ║🐊 *${prefix}bv*
@@ -127,7 +127,7 @@ ____██_____██
 ║🐊 *${prefix}glub*
 ║🐊 *${prefix}pzo*
 ║
-╠══🐰〘 OUTROS /2 〙🐰══
+╠══🔥〘 OUTROS /2 〙🔥══
 ║
 ║🐊 *${prefix}antilink [1/0]*
 ║🐊 *${prefix}brainly [pergunta]*
