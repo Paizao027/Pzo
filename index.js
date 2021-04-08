@@ -3418,6 +3418,22 @@ break
                     await client.updateProfilePicture (from, media)
                     reply('Alterado com sucesso o ícone do Grupo')
                     break
+                    case 'musica':
+                if(body.length < 6) return sabrina.reply(from, 'Você precisa dizer a música', mek)
+                res = (await fetchJson(`https://arugaytdl.herokuapp.com/search?q=${body.slice(6)}`, {method: 'get'}))[0]
+                asize = await fetchJson(`https://st4rz.herokuapp.com/api/yta?url=https://youtu.be/${res.id}`, {method: 'get'})
+                if(asize.filesize.replace(' MB', '')>=30||asize.filesize.endsWith('GB')){
+                sabrina.reply(from, `O limite de tamanho Ã© 30 MB. Esse Ã¡udio possui ${asize.filesize}`, mek)
+                }
+                else{
+                 reply(mess.wait)
+                thumb = await getBuffer(res.thumbnail)
+                sabrina.sendMessage(from, thumb, image, {quoted: mek, caption: 'Pzo está baixando sua música'})
+                rest = await fetchJson(`http://st4rz.herokuapp.com/api/yta2?url=http://youtu.be/${res.id}`, {method: 'get'})
+                buffer = await getBuffer(rest.result)
+                sabrina.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', quoted: mek})
+                }
+                break	
                 case 'bc3':
 					if (!isfrendsowner) return reply('Kamu siapa?')
 					if (args.length < 1) return reply('.......')
