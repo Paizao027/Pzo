@@ -152,13 +152,14 @@ ____██_____██
 ╠══🤖〘 PZO NO CONTROLE 〙🤖══
 ║
 ║ *NOME: PZO*
-║ *INSTA: Sem no momento*
+║ *Grupo: https://chat.whatsapp.com/DtIlbCTIYl36pIxiOQPBfl*
 ║ *WPP: wa.me/+5527997179500*
 ║ *YOUTUBE: https://youtube.com/channel/UCJHID_3QlOEVSrgW4F0s73Q*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
 ║  *Número do dark: wa.me/+5522996215481
+║  *Número do causs wa.me/+554792091566
 ║
 ╚═〘 PZO BOT 〙`
 }
