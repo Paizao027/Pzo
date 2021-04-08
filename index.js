@@ -3335,14 +3335,6 @@ break
                                         linkgc = await client.groupInviteCode(from)
                                         reply('https://chat.whatsapp.com/'+linkgc)
                                         break
-                                case 'leave':
-                                        if (!isGroup) return reply(mess.only.group)
-                                        if (isGroupAdmins || isOwner) {
-                                            client.groupLeave(from)
-                                        } else {
-                                            reply(mess.only.admin)
-                                        }
-                                        break
 				case 'toimg':
 					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
 					reply(mess.wait)
