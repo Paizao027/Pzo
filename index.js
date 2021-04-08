@@ -276,7 +276,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-					wait: '❬❗❭ Espere',
+					wait: '❬⏳❭ Aguarde, 𝑷𝒁𝑶 está fazendo',
 					success: '️❬ ✔ ❭ Sucesso 🖤',
 					levelon: '❬ ✔ ❭ *leveling* *ativado*',
 					leveloff: ' ❬ X ❭  *leveling* *desativado*',
@@ -289,7 +289,7 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD PZO BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUÁRIO MOD PZO BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					
 					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de PZO. Registre-se para fazer amizade com o bot Pzo por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Pzo|17\n\n──「 PZO BOT 」──`,
@@ -683,7 +683,12 @@ if (text.includes("placa"))
 	
 		if (messagesC.includes("bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("oi")
+			reply("fala ae man")
+	}
+	
+	if (messagesC.includes("thay")){
+			client.updatePresence(from, Presence.composing)
+			reply("Oin, deusa linda maravilhosa, paizao fez um comando especialmente para vc, espero q goste, love you❤️")
 	}
 	
 			if (messagesC.includes("bah")){
@@ -922,6 +927,19 @@ if (text.includes("placa"))
 					client.sendMessage(from, anu.result.soal, text, { quoted: mek }) // ur cods
 					}, 0) // 1000 = 1s,
 					break
+					case 'thay':
+				   if (args.length < 1) return reply(`ERROR: kd o texto?? \nUso: ${prefix}thay (seu texto aqui)`)
+				   try{
+				      var txtfig = body.slice(7).trim()
+				      reply(mess.wait)
+				      url = encodeURI(`https://api.xteam.xyz/attp?file&text=${txtfig}`)
+				      textofigu = await getBuffer(url)
+				      client.sendMessage(from, textofigu, sticker, {quoted: mek})
+				   }
+				   catch (e){
+				      reply("Error")
+				   }
+				   break
                 case 'quotemaker':
 					var gh = body.slice(12)
 					var quote = gh.split("|")[0];
@@ -3418,22 +3436,6 @@ break
                     await client.updateProfilePicture (from, media)
                     reply('Alterado com sucesso o ícone do Grupo')
                     break
-                    case 'musica':
-                if(body.length < 6) return sabrina.reply(from, 'Você precisa dizer a música', mek)
-                res = (await fetchJson(`https://arugaytdl.herokuapp.com/search?q=${body.slice(6)}`, {method: 'get'}))[0]
-                asize = await fetchJson(`https://st4rz.herokuapp.com/api/yta?url=https://youtu.be/${res.id}`, {method: 'get'})
-                if(asize.filesize.replace(' MB', '')>=30||asize.filesize.endsWith('GB')){
-                sabrina.reply(from, `O limite de tamanho Ã© 30 MB. Esse Ã¡udio possui ${asize.filesize}`, mek)
-                }
-                else{
-                 reply(mess.wait)
-                thumb = await getBuffer(res.thumbnail)
-                sabrina.sendMessage(from, thumb, image, {quoted: mek, caption: 'Pzo está baixando sua música'})
-                rest = await fetchJson(`http://st4rz.herokuapp.com/api/yta2?url=http://youtu.be/${res.id}`, {method: 'get'})
-                buffer = await getBuffer(rest.result)
-                sabrina.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', quoted: mek})
-                }
-                break	
                 case 'bc3':
 					if (!isfrendsowner) return reply('Kamu siapa?')
 					if (args.length < 1) return reply('.......')
