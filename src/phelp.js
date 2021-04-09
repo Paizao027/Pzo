@@ -51,10 +51,10 @@ ____██_____██
 ║
 ║╠═🤖〘 PZO NO CONTROLE 〙🤖═║
 ║
-║𝑷𝑪𝑾¹⁵⁷ *NOME: PZO*
-║𝑷𝑪𝑾¹⁵⁷ *Grupo: https://chat.whatsapp.com/DtIlbCTIYl36pIxiOQPBfl*
-║𝑷𝑪𝑾¹⁵⁷ *WPP: wa.me/+5527997179500*
-║𝑷𝑪𝑾¹⁵⁷ *YOUTUBE: https://youtube.com/channel/UCJHID_3QlOEVSrgW4F0s73Q*
+║🐊 *NOME: PZO*
+║🐊 *Grupo: Tirei pq não pode, quem quiser vem pv
+║🐊 *WPP: wa.me/+5527997179500*
+║🐊 *YOUTUBE: https://youtube.com/channel/UCJHID_3QlOEVSrgW4F0s73Q*
 ║
 ║𝑷𝑪𝑾¹⁵⁷ *Canal:* https://youtube.com/channel/UCR3if-pal1kZxnPp0hZMmWw
 ║𝑷𝑪𝑾¹⁵⁷ *Fuck:* https://youtube.com/channel/UCCXSfIsQVm1w1udGNW5hX5A
