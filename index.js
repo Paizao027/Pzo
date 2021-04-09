@@ -287,14 +287,14 @@ async function starts() {
 				Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
 				},
 				only: {
-					group: '[❗] Este comando só pode ser usado em grupos! ❌',
-					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUÁRIO MOD PZO BOT*',
+					group: '[⚠️] Este comando só pode ser usado em grupos! ❌',
+					premium: '[⚠️] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
+					mod: '[⚠️] ESTE PEDIDO É ESPECÍFICO PARA USUÁRIO MOD PZO BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					
 					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de PZO. Registre-se para fazer amizade com o bot Pzo por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Pzo|17\n\n──「 PZO BOT 」──`,
-					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
-					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
+					admin: '[⚠️] Este comando só pode ser usado por administradores de grupo! ❌',
+					Badmin: ' [⚠️] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
@@ -3256,7 +3256,7 @@ break
 					client.sendMessage(from, teks, text, {detectLinks: false, quoted: mek})
 					break
 				case 'limpar':
-					if (!isOwner) return reply('Quem é Você?, Voce não é meu dono 😂')
+					if (!isOwner) return reply('Quem é Você? Você não é o paizão')
 					anu = await client.chats.all()
 					client.setMaxListeners(25)
 					for (let _ of anu) {
@@ -3265,7 +3265,7 @@ break
 					reply('Excluido todos os chats com sucesso :)')
 					break
 				case 'bc':
-					if (!isOwner) return reply('Quem é Você, você não é meu dono 😂?')
+					if (!isOwner) return reply('Quem é Você? Você não é o paizão')
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
@@ -3277,7 +3277,7 @@ break
 						reply('Transmissão enviada com sucesso')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ TRANSMISSÃO DE AVISO ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ TRANSMISSÃO DE AVISO PZO ]\n\n${body.slice(4)}`)
 						}
 						reply('Transmissão enviada com sucesso')
 					}
@@ -3354,14 +3354,14 @@ break
                                         reply('https://chat.whatsapp.com/'+linkgc)
                                         break
 				case 'toimg':
-					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
+					if (!isQuotedSticker) return reply('{ ⚠️ } *Marque a figurinha*')
 					reply(mess.wait)
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(encmedia)
 					ran = getRandom('.png')
 					exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 						fs.unlinkSync(media)
-						if (err) return reply('❌ Falha ao converter adesivos em imagens ❌')
+						if (err) return reply('Tente marcar um adesivo não animado😊')
 						buffer = fs.readFileSync(ran)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: '>//<'})
 						fs.unlinkSync(ran)
@@ -3393,7 +3393,7 @@ break
                     reply('Alterado com sucesso o ícone do Grupo')
                     break
                 case 'bc2':
-					if (!isadminbot) return reply('Quem é Você?')
+					if (!isadminbot) return reply('Quem é Você? Você não é o paizão')
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
@@ -3402,7 +3402,7 @@ break
 						for (let _ of anu) {
 							client.sendMessage(_.jid, buff, image, {caption: `[ admin bot Broadcast ]\n\n${body.slice(4)}`})
 						}
-						reply('Transmissao enviada')
+						reply('Transmisso enviada')
 					} else {
 						for (let _ of anu) {
 							sendMess(_.jid, `[ *admin bot Broadcast* ]\n\n${body.slice(4)}`)
