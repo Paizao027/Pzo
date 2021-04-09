@@ -661,26 +661,6 @@ if (text.includes("placa"))
 			reply("teu pai")
 	}
 	
-        if (messagesC.includes("cade meu adm")){
-			client.updatePresence(from, Presence.composing)
-			reply("pergunta la no posto ipiranga")
-	}
-	
-	if (messagesC.includes("me da adm")){
-			client.updatePresence(from, Presence.composing)
-			reply("aqui essa frase é proibida🙄")
-	}
-	
-	if (messagesC.includes("bot gay")){
-			client.updatePresence(from, Presence.composing)
-			reply("teu pai aquele corno")
-	}
-	
-	if (messagesC.includes("adm")){
-			client.updatePresence(from, Presence.composing)
-			reply("pede isso naum broo, os ademir entra em depresaum😭😭😭")
-	}
-	
 		if (messagesC.includes("corno")){
 			client.updatePresence(from, Presence.composing)
 			reply("vsfd seu merda")
@@ -1593,7 +1573,7 @@ if (text.includes("placa"))
                        const teks1 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
                        const teks2 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
                        const teks3 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks4 = `*[TRAVA🐊??]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks4 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
                       var options = {
                          text: teks1,
                          text: teks2,
@@ -1715,22 +1695,6 @@ client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audi
 break
 case 'fdp':
 tujuh = fs.readFileSync('./assets/fdp.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
-case 'me da adm':
-tujuh = fs.readFileSync('./assets/medaadm.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
-case 'adm':
-tujuh = fs.readFileSync('./assets/adm.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
-case 'cade meu adm':
-tujuh = fs.readFileSync('./assets/cademeuadm.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
-case 'bot gay':
-tujuh = fs.readFileSync('./assets/botgay.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
 case 'beat1':
