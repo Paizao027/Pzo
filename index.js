@@ -757,8 +757,8 @@ if (text.includes("placa"))
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
-					case 'phelp':
-				    case 'pmenu':
+				case 'phelp':
+				case 'pmenu':
 					client.sendMessage(from, phelp(prefix), text)
 					break
 				case 'help1':
