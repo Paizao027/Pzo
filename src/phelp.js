@@ -44,6 +44,11 @@ ____██_____██
 ║𝑷𝑪𝑾¹⁵⁷ *${prefix}antilink*
 ║𝑷𝑪𝑾¹⁵⁷ *${prefix}antiracismo*
 ║
+║╠══🤖〘 OUTROS 〙🤖══║
+║𝑷𝑪𝑾¹⁵⁷ Tag [para pegar a tag da 𝑷𝑪𝑾¹⁵⁷]
+║𝑷𝑪𝑾¹⁵⁷ Recado [para pegar o recado da 𝑷𝑪𝑾¹⁵⁷]
+║𝑷𝑪𝑾¹⁵⁷ Canal [para pegar o canal da 𝑷𝑪𝑾¹⁵⁷]
+║
 ║╠═🤖〘 PZO NO CONTROLE 〙🤖═║
 ║
 ║𝑷𝑪𝑾¹⁵⁷ *NOME: PZO*
@@ -51,9 +56,8 @@ ____██_____██
 ║𝑷𝑪𝑾¹⁵⁷ *WPP: wa.me/+5527997179500*
 ║𝑷𝑪𝑾¹⁵⁷ *YOUTUBE: https://youtube.com/channel/UCJHID_3QlOEVSrgW4F0s73Q*
 ║
-║ *"base do lindo (DARK BOT 4.0)🐊🚩*
-║ *"kiba não xereka"*
-║ *Número do dark: wa.me/+5522996215481
+║𝑷𝑪𝑾¹⁵⁷ *Canal:* https://youtube.com/channel/UCR3if-pal1kZxnPp0hZMmWw
+║𝑷𝑪𝑾¹⁵⁷ *Fuck:* https://youtube.com/channel/UCCXSfIsQVm1w1udGNW5hX5A
 ║
 ╚═〘 PZO BOT 〙`
 }
