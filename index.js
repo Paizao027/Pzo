@@ -682,6 +682,11 @@ if (text.includes("placa"))
 			reply("vai vc, tu ja me disse q é mo bom")
 	}
 	
+	if (messagesC.includes("canal")){
+			client.updatePresence(from, Presence.composing)
+			reply("Canal da PCW: https://youtube.com/channel/UCR3if-pal1kZxnPp0hZMmWw")
+	}
+	
 		if (messagesC.includes("vsfd")){
 			client.updatePresence(from, Presence.composing)
 			reply("bora juntos?")
