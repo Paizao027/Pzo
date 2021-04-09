@@ -72,7 +72,6 @@ ____██_____██
 ║🐊 *${prefix}premiumlist*
 ║🐊 *${prefix}delete*
 ║🐊 *${prefix}modapk*
-║🐊 *${prefix}indo10*
 ║🐊 *${prefix}daftarvip [para virar Premium]*
 ║🐊 *${prefix}qrcode*
 ║🐊 *${prefix}chentai*
@@ -96,6 +95,8 @@ ____██_____██
 ║🐊 *${prefix}bemvindo [1/0]*
 ║🐊 *${prefix}grupoinfo*
 ║🐊 *${prefix}bomdia*
+║🐊 *${prefix}antilink*
+║🐊 *${prefix}antiracismo*
 ║
 ╠══🔥〘 ESPECIFICO DO BOT 〙🔥══
 ║

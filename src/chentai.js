@@ -1,7 +1,7 @@
 const chentai = () => { 
 	return `
 	
-	*ola👋👋* *COLETE SEUS CÓDIGOS DE HENTAI 😌*
+	*Olá👋👋* *COLETE SEUS CÓDIGOS DE HENTAI 😌*
 
 Código Nuclear [Doujin Hentai gênero NTR] (Netorare)
 
@@ -491,6 +491,6 @@ https://nhentai.net/g/207432/ Watashi no Onii-chan 4,5
 https://nhentai.net/g/247574/ Watashi no Onii-chan Extra
 
 
-*CAUSS BOT* `
+*PZO BOT* `
 }
 exports.chentai = chentai
