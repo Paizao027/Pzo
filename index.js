@@ -6,7 +6,8 @@ const {
     GroupSettingChange
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
-const { pcwhelp } = require('./src/pcwhelp')
+const { phelp } = require('./src/phelp')
+const { help } = require('./src/help')
 const { help } = require('./src/help')
 const {help1} = require('./src/help1')
 const { modapk } = require('./src/modapk')
@@ -757,9 +758,9 @@ if (text.includes("placa"))
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
-					case 'pcwhelp':
+					case 'phelp':
 				case 'pmenu':
-					client.sendMessage(from, phelp(prefix), text)
+					client.sendMessage(from, help(prefix), text)
 					break
 				case 'help1':
 				case 'menu1':
