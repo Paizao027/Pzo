@@ -7,8 +7,8 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { help } = require('./src/help')
-const { help } = require('./src/help')
-const {help1} = require('./src/help1')
+const { phelp } = require('./src/phelp')
+const { help1 } = require('./src/help1')
 const { modapk } = require('./src/modapk')
 const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
@@ -756,6 +756,10 @@ if (text.includes("placa"))
 				case 'help':
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
+					break
+					case 'phelp':
+				case 'phelp':
+					client.sendMessage(from, phelp(prefix), text)
 					break
 				case 'help1':
 				case 'menu1':
