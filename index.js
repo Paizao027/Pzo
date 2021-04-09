@@ -759,7 +759,7 @@ if (text.includes("placa"))
 					break
 					case 'pcwhelp':
 				case 'pcwmenu':
-					client.sendMessage(from, help(prefix), text)
+					client.sendMessage(from, pcwhelp(prefix), text)
 					break
 				case 'help1':
 				case 'menu1':
