@@ -1,4 +1,4 @@
-const help = (prefix) => {
+const phelp = (prefix) => {
 	return `
 <══════════════════════>
       *𝑷𝒁𝑶 BOT*
@@ -61,5 +61,5 @@ ____██_____██
 ╚═〘 PZO BOT 〙`
 }
 
-exports.help = help
+exports.phelp = phelp
 
