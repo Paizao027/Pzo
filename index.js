@@ -1717,6 +1717,22 @@ case 'fdp':
 tujuh = fs.readFileSync('./assets/fdp.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
+case 'me da adm':
+tujuh = fs.readFileSync('./assets/medaadm.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'adm':
+tujuh = fs.readFileSync('./assets/adm.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'cade meu adm':
+tujuh = fs.readFileSync('./assets/cademeuadm.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'bot gay':
+tujuh = fs.readFileSync('./assets/botgay.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
 case 'beat1':
 tujuh = fs.readFileSync('./assets/beat1.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
