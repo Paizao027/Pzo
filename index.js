@@ -662,6 +662,16 @@ if (text.includes("placa"))
 			reply("teu pai")
 	}
 	
+	if (messagesC.includes("tag")){
+			client.updatePresence(from, Presence.composing)
+			reply("𝑷𝑪𝑾¹⁵⁷")
+	}
+	
+	if (messagesC.includes("recado")){
+			client.updatePresence(from, Presence.composing)
+			reply("𓇽͢ 𝑷𝑹𝑰𝑴𝑬𝑰𝑹𝑶͢ 𝑪𝑶𝑴𝑨𝑵𝑫𝑶͢ 𝑫𝑨͢ 𝑾𝑬𝑩͢ ¹⁵⁷*")
+	}
+	
 		if (messagesC.includes("corno")){
 			client.updatePresence(from, Presence.composing)
 			reply("vsfd seu merda")
