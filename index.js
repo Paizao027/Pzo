@@ -3465,6 +3465,20 @@ break
 						fs.unlinkSync(ran)
 					})
 					break
+					case 'ptoimg':
+					if (!isQuotedSticker) return reply('{ ⚠️ } *Marque a figurinha*')
+					reply(mess.wait)
+					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+					media = await client.downloadAndSaveMediaMessage(encmedia)
+					ran = getRandom('.png')
+					exec(`ffmpeg -i ${media} ${ran}`, (err) => {
+						fs.unlinkSync(media)
+						if (err) return reply('Tu é da PCW mas é burro em kkkk, só da pra converter adesivos não animados')
+						buffer = fs.readFileSync(ran)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: '>//<'})
+						fs.unlinkSync(ran)
+					})
+					break
 				case 'bemvindo':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
