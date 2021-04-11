@@ -7,7 +7,7 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { phelp } = require('./src/phelp')
-const antiracismo = JSON.parse(fs.readFileSync('./database/json/antiracismo.json'))
+const { antiracismo } = JSON.parse(fs.readFileSync('./database/json/antiracismo.json'))
 const kagApi = require('@kagchi/kag-api')
 const { TobzApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const { VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
@@ -749,6 +749,14 @@ if (text.includes("placa"))
 						fs.writeFileSync('./src/say.json', JSON.stringify(sayrandom))
 						reply(`Sucesso, Disse ${hai} Adicionado ao banco de dados`)
 						break
+					case 'setprefix':
+					if (args.length < 1) return
+					if (!isOwner) return reply(mess.only.ownerB)
+				  prefix = args[0]
+					up.prefix = prefix
+					fs.writeFileSync('./data/settings.json', JSON.stringify(up, null, '\t'))
+					reply(`Prefijo cambiado : ${prefix}`)
+					break
                    case 'saylist':
 					teks = 'Esta é a lista de dizeres :\n'
 					for (let awokwkwk of sayrandom) {
