@@ -1023,12 +1023,12 @@ break
 					case 'antracismo':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('use *antracismo on')
+					if (args.length < 1) return reply('use #antracismo on')
 					if ((args[0]) === 'on') {
 						if (isAntRacismo) return reply('O modo ant-racismo foi ativado')
 						antracismo.push(from)
 						fs.writeFileSync('./database/json/antracismo.json', JSON.stringify(antracismo))
-						reply(`\`\`\`✓Ant-racismo ativafo com sucesso\`\`\` *${groupMetadata.subject}*`)
+						reply(`\*✓Ant-racismo ativado com sucesso\* *${groupMetadata.subject}*`)
 					} else if ((args[0]) === 'off') {
 						antracismo.splice(from, 1)
 						fs.writeFileSync('./database/json/antracismo.json', JSON.stringify(antracismo))
