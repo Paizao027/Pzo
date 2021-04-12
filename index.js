@@ -7,7 +7,6 @@ const {
 } = require('@adiwajshing/baileys')
 const { help } = require('./src/help')
 const kagApi = require('@kagchi/kag-api')
-const { TobzApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const { VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
