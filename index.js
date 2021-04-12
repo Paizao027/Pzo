@@ -63,6 +63,7 @@ cr = '*𝑷𝒁𝑶*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
+const antracismo = JSON.parse(fs.readFileSync('./database/json/antracismo.json'))
 const antlink = JSON.parse(fs.readFileSync('./database/json/antlink.json'))
 const event = JSON.parse(fs.readFileSync('./database/json/event.json'))
 const _level = JSON.parse(fs.readFileSync('./database/user/level.json'))
