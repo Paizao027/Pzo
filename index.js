@@ -7,7 +7,6 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { help } = require('./src/help')
-const { base } = require('./src/base')
 const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
 const { destrava } = require('./src/destrava')
@@ -698,14 +697,8 @@ if (messagesC.includes("preto")){
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
-				case 'base':
-					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply('Por um acaso, você é admin do grupo? KKKKKKKKKK')
-					client.sendMessage(from, base(prefix), text) 
-					break
-					case 
-'Criador' :
-Reply(from ,`🚀salva zap🚀
+					case 'Criador' :
+reply(from ,`🚀salva zap🚀
 
 😎Me chamo blvkvl
 
