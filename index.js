@@ -6,6 +6,9 @@ const {
     GroupSettingChange
 } = require('@adiwajshing/baileys')
 const { help } = require('./src/help')
+const kagApi = require('@kagchi/kag-api')
+const { TobzApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
+const { VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const apivhtear = 'apivhtear';
@@ -26,6 +29,7 @@ limitawal = '999999999'
 cr = '*𝑷𝒁𝑶*'
 
 /*********** LOAD FILE ***********/
+const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
 const antlink = JSON.parse(fs.readFileSync('./database/json/antlink.json'))
 const event = JSON.parse(fs.readFileSync('./database/json/event.json'))
 const _level = JSON.parse(fs.readFileSync('./database/user/level.json'))
