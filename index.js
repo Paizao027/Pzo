@@ -7,6 +7,7 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { help } = require('./src/help')
+const { linkzap } = require('./src/linkzap')
 const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
 const { destrava } = require('./src/destrava')
@@ -300,6 +301,7 @@ async function starts() {
 			const premium = ["5527997179500@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
+			pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
 			const groupName = isGroup ? groupMetadata.subject : ''
 			const groupMembers = isGroup ? groupMetadata.participants : ''
@@ -699,18 +701,9 @@ if (messagesC.includes("preto")){
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
-					case 'Criador' :
-reply(from ,`🚀salva zap🚀
-
-😎Me chamo blvkvl
-
-🌹client.updatePresence(from, Presence.composing) 
-                  options = {🌹
-🌞　　　　🛸　　　 　🌎　°　　🌓　•　　.°•　　　🚀 ✯✯　　
-　　　★　*　　　　　°　　　　🛰　°·　　
-.　　　•　°★　•
-▁▂▃▄▅▆▇▇▆▅▄▃🌲Quiser Trocar divulgação vai no meu pv`, id)
-break
+					case 'linkzap' :
+					client.sendMessage(from, linkzap(prefix), text)
+					break
 		    	case 'wa.me':
 		        case 'wame':
                   client.updatePresence(from, Presence.composing) 
