@@ -7,7 +7,6 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { help } = require('./src/help')
-const { linkzap } = require('./src/linkzap')
 const { pack } = require('./src/pack')
 const { outros } = require('./src/outros')
 const { destrava } = require('./src/destrava')
@@ -700,9 +699,6 @@ if (messagesC.includes("preto")){
 				case 'help':
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
-					break
-					case 'linkzap' :
-					client.sendMessage(from, linkzap(prefix), text)
 					break
 		    	case 'wa.me':
 		        case 'wame':
