@@ -36,9 +36,9 @@ const help = (prefix) => {
 ╠➥ *${prefix}gay1*
 ╠➥ *${prefix}grupoinfo* 
 ╠➥ *${prefix}linkgp* 
-╠➥ *${prefix}marcar* 
-╠➥ *${prefix}marcar2*
-╠➥ *${prefix}marcar3*
+╠➥ *${prefix}everyone* 
+╠➥ *${prefix}everyone2*
+╠➥ *${prefix}everyone3*
 ╠➥ *${prefix}promover [@]*
 ╠➥ *${prefix}rebaixar [@]*
 ╠➥ *${prefix}setnome*
