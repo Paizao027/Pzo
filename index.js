@@ -658,6 +658,11 @@ if (messagesC.includes("preto")){
 			reply("são seus olhos b😊")
 	}
 	
+	if (messagesC.includes("namora cmg bot")){
+			client.updatePresence(from, Presence.composing)
+			reply("mano, eu sou um bot, vc ta precisando se trata 😖")
+	}
+	
 				if (messagesC.includes("canta")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/canto.mp3');
