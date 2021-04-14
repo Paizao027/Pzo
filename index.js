@@ -633,6 +633,11 @@ if (messagesC.includes("preto")){
 			reply("vem tomar nescau comigo?")
 	}
 	
+	if (messagesC.includes("obgd bot")){
+			client.updatePresence(from, Presence.composing)
+			reply("de nd :)")
+	}
+	
 	if (messagesC.includes("eae bot")){
 			client.updatePresence(from, Presence.composing)
 			reply("eae lindo(a), tudo bom?")
