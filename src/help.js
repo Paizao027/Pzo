@@ -33,7 +33,6 @@ const help = (prefix) => {
 ╠➥ *${prefix}banir [@]* 
 ╠➥ *${prefix}bemvindo [1/0]* 
 ╠➥ *${prefix}gay [@]*
-╠➥ *${prefix}gay1*
 ╠➥ *${prefix}grupoinfo* 
 ╠➥ *${prefix}linkgp* 
 ╠➥ *${prefix}everyone* 
@@ -49,6 +48,7 @@ const help = (prefix) => {
 ╠➥ *${prefix}ytmp*
 ╠➥ *${prefix}ytmp3
 ╠➥ *${prefix}ytmp4*
+╠➥ *${prefix}gay1*
 ║
 ╠═══⚔️〘 OUTROS 〙⚔️════
 ╠➥ *${prefix}canal*
